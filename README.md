@@ -4,15 +4,14 @@ https://github.com/ky0314/BootstrapModal
 
 v1.0.0
 
-Bootstrap3.x系のモーダルウインドウをjavascriptだけで呼び出すファンクションです。
-いちいちdivなどを何重にもマークアップするのが面倒なので自分用に作成しました
+A javascript class to call Bootstrap3.x modal window via javascript, without writing nested and nested DIVs
 
-* モーダルのタイトル、本文を指定できます。本文はjQueryオブジェクトも受け取ります
-* 任意の数のボタンをそれぞれおコールバック付きで作成できます
-* モーダルのロックなどのオプションもあります
+* modal title, body. body can also receive a jqueru object in addition to string
+* buttons with callbacks and bootstrap button classes(info,success,warning,danger)
+* locking modal window
 
-## 使用方法:
-.jsファイルを読み込むだけです
+## USAGE:
+just load the .js file
 
 ```html:example.html
 <script src="bs_modal.js"></script>
@@ -20,15 +19,14 @@ Bootstrap3.x系のモーダルウインドウをjavascriptだけで呼び出す�
 ```
 
 ## simple example :
-window.alert()を置き換えるだけなら以下の1行でできます
+easiest example which can be alternative of window.alert()
 
 ```javascriipt:example.js
    BootStrapModal.call({"title":"success", "body":"Data successfully updated"});
 ```
 
 ## another example with full-options :
-色々オプションをつけてボタンをたくさん載せると以下の感じになります。
-各オプションの詳細はコメントを見てください。すいません。。。
+details of each option are written in the code
 
 ```javascript:example.js
 
