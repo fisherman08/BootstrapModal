@@ -1,5 +1,5 @@
 # BootstrapModal
-https://github.com/ky0314/BootstrapModal
+https://github.com/fisherman08/BootstrapModal
 
 
 v1.0.0

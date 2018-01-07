@@ -1,14 +1,15 @@
-# BootstrapModal
-https://github.com/ky0314/BootstrapModal
+Bootstrapのmodalを呼び出すjsライブラリ
 
+を作りました。正確に言えば以前に作ったものを思いつきでCoffeescriptに書き直したのでついでにgithubに公開してみました。
+bootstrapのモーダルは見栄えも良くて各ブラウザでの確認ウインドウの差異を吸収するのに愛用するんですが、
+素直にhtmlを書こうとするとdivが何重にもネストしたりして面倒なので。
 
-v1.0.0
+#BootstrapModal
+[https://github.com/fisherman08/BootstrapModal](https://github.com/fisherman08/BootstrapModal "")
 
-Bootstrap3.x系のモーダルウインドウをjavascriptだけで呼び出すファンクションです。
-いちいちdivなどを何重にもマークアップするのが面倒なので自分用に作成しました
 
 * モーダルのタイトル、本文を指定できます。本文はjQueryオブジェクトも受け取ります
-* 任意の数のボタンをそれぞれおコールバック付きで作成できます
+* 任意の数のボタンをそれぞれコールバック付きで作成できます。bootstrapのボタンのクラス(info,success,warning,danger)を指定できます。標準ではdefaultになります。
 * モーダルのロックなどのオプションもあります
 
 ## 使用方法:
@@ -70,6 +71,8 @@ window.alert()を置き換えるだけなら以下の1行でできます
     );
 ```
 
-## history
-### v1.0.0
-* released
+ただこれだけです。非常に簡単なライブラリですが、あると便利。
+バグやツッコミどころはかなりあると思うので、もしお気付きの方がいらっしゃいましたらここかgithubでご指摘ください。。
+もちろんpull-requestも大歓迎です。
+[https://github.com/fisherman08/BootstrapModal](https://github.com/fisherman08/BootstrapModal "")
+

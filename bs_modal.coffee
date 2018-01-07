@@ -4,7 +4,7 @@ BootStrapModal
     v1.0.0
 
 Copyright (c) 2015 Y.Kaneko
-    https://github.com/ky0314/BootstrapModal
+    https://github.com/fisherman08/BootstrapModal
 
 This software is released under the MIT License.
 http://opensource.org/licenses/mit-license.php
@@ -196,6 +196,8 @@ class BootstrapModal.button
 
         # set bootstrap btn type(default, info, success, warning, danger)
         switch @type
+            when "primary"
+                $btn.addClass("btn-primary")
             when "info"
                 $btn.addClass("btn-info")
             when "success"

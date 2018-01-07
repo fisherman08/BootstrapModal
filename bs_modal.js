@@ -6,7 +6,7 @@ BootStrapModal
     v1.0.0
 
 Copyright (c) 2015 Y.Kaneko
-    https://github.com/ky0314/BootstrapModal
+    https://github.com/fisherman08/BootstrapModal
 
 This software is released under the MIT License.
 http://opensource.org/licenses/mit-license.php
@@ -191,6 +191,9 @@ another example with full-options :
       }).addClass("btn");
       $btn.text(this.label);
       switch (this.type) {
+        case "primary":
+          $btn.addClass("btn-primary");
+          break;
         case "info":
           $btn.addClass("btn-info");
           break;
